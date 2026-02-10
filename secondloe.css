@@ -1,6 +1,6 @@
 .backgroundimg {
     width:100%;
-    height:100vh;
+    height:100px;
     object-fit:cover;
 }
 
@@ -18,16 +18,9 @@
     position:fixed;
     
 }
-
-.grid {
-    display:grid;
-    width: 900px;
-    border:2px solid black;
-    background-color: darkcyan;
-    grid-template-columns: 100px 100px 100px;
 }
-body {
-    background-image: url("C:/Users/ADMIN/Desktop/loe/medievalknightillustration.jpg");
+.page1back {
+    background-image: url("medievalknightillustration.jpg");
     background-color: #f0f0f0;
     background-attachment:fixed;
     background-position:center;
@@ -53,4 +46,5 @@ body {
   padding: 8px 14px;
   border-radius: 0px;
   text-decoration:none;
+
 }
